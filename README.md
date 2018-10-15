@@ -1,3 +1,3 @@
-# InSpec Demo Google Cloud Profile
+# Community Summit Demo Profile
 
-This example shows the implementation of an InSpec profile.
+An InSpec profile to show profile and control improvements
