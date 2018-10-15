@@ -1,6 +1,4 @@
 
-title 'Google Cloud: Bucket Controls'
-
 # Legacy attribute definition
 #bucket_location = attribute('gcp_bucket_location', default: 'EU', description: "Bucket location that all cloud buckets need to be in, eg. 'US'")
 

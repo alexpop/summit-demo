@@ -1,6 +1,4 @@
 
-title 'Google Cloud: Kubernetes Controls'
-
 gcp_project_id = attribute('gcp_project_id')
 
 control 'gcp-kubernetes-legacy-authz-disabled' do
