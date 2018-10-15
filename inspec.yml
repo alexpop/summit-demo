@@ -1,0 +1,25 @@
+name: summit-demo
+title: Community Summit Demo Profile
+maintainer: The Authors
+copyright: The Authors
+copyright_email: you@example.com
+license: Apache-2.0
+summary: An InSpec profile to show profile and control improvements
+version: 1.3.0
+
+supports:
+  - platform: gcp
+depends:
+  - name: inspec-gcp
+    url: https://github.com/inspec/inspec-gcp/archive/master.tar.gz
+
+attributes:
+  - name: gcp_project_id
+    description: The unique project id of the Google Account being checked, eg. 'acme-forum-prod'
+    type: string
+    required: true
+  - name: gcp_bucket_location
+    description: Required Google Cloud bucket location, eg. 'US'
+    type: string
+    required: false
+    default: 'EU'
