@@ -1,3 +1,13 @@
 # Community Summit Demo Profile
 
-An InSpec profile to show profile and control improvements
+An InSpec profile to show profile and control improvements using a Google Cloud profile.
+
+Example of how to run it:
+```
+# Point to the Google Cloud credential file
+export GOOGLE_APPLICATION_CREDENTIALS='/home/user/.config/gcloud/your-creds-file.json'
+
+git clone https://github.com/alexpop/summit-demo
+
+inspec exec ./summit-demo -t gcp:// --attrs ./summit-demo/attrs.yaml
+```
